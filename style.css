@@ -17,4 +17,12 @@ h1 {
         margin: auto;
     }
 
-
+/* Applies style 900px and under */
+@media (max-width:900px) {
+    .image {
+        max-width: 50vw;
+        height: auto;}
+        body{
+          background-color: aquamarine;
+        }
+    }
