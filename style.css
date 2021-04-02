@@ -1,22 +1,48 @@
 
 .honeydew-background{
-    background-color: honeydew
+    background-color: honeydew;
+    background: url('https://images.pexels.com/photos/2752951/pexels-photo-2752951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    
+    
 }
 
 h1 {
     font-family: 'Dancing Script';
+    color:thistle;
+    text-align: center
+   
   }
 
   img{width: 600px;
     border-style: solid;
-    border-color: blanchedalmond;}
-
+    
+}
 
     .garden {
         display: block;
         margin: auto;
     }
 
+    div > input {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin: auto;
+    }
+#button {
+    display: flex;
+    margin: auto;
+ }
+ p{
+     display: flex;
+     margin: 15px;
+     color: thistle;
+     font-weight: 800;
+ }
+ .haiku{
+     width: 50%;
+     margin: auto;
+ }
 /* Applies style 900px and under */
 @media (max-width:900px) {
     .image {
