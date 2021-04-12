@@ -1,22 +1,18 @@
 
-.honeydew-background{
+body{
     background-color: honeydew;
-    background: url('https://images.pexels.com/photos/2752951/pexels-photo-2752951.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-    
-    
+    background: url('https://images.pexels.com/photos/6479594/pexels-photo-6479594.jpeg?cs=srgb&dl=pexels-tara-winstead-6479594.jpg&fm=jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 h1 {
     font-family: 'Dancing Script';
-    color:thistle;
+    color:lightpink;
     text-align: center
    
   }
-
-  img{width: 600px;
-    border-style: solid;
-    
-}
 
     .garden {
         display: block;
@@ -36,19 +32,24 @@ h1 {
  p{
      display: flex;
      margin: 15px;
-     color: thistle;
+     color:lightpink;
      font-weight: 800;
+     font-family: 'Dancing Script';
+     font-size: 20px;
  }
  .haiku{
      width: 50%;
      margin: auto;
  }
-/* Applies style 900px and under */
-@media (max-width:900px) {
+
+@media (max-width:500px) {
     .image {
         max-width: 50vw;
         height: auto;}
         body{
-          background-color: aquamarine;
+            background: url('https://images.pexels.com/photos/6479594/pexels-photo-6479594.jpeg?cs=srgb&dl=pexels-tara-winstead-6479594.jpg&fm=jpg');
         }
     }
+
+
+    
