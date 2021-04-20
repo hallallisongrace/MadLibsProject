@@ -29,7 +29,7 @@ h1 {
     display: flex;
     margin: auto;
  }
- p{
+ .text{
      display: flex;
      margin: 15px;
      color:lightpink;
