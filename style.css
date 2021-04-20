@@ -9,38 +9,52 @@ body{
 
 h1 {
     font-family: 'Dancing Script';
-    color:lightpink;
+    color: #008C76FF;
     text-align: center
-   
   }
 
-    .garden {
+
+
+.garden {
         display: block;
         margin: auto;
     }
 
-    div > input {
+   
+div > input {
         display: flex;
         flex-direction: column;
         align-content: center;
         margin: auto;
     }
+
+
+
 #button {
     display: flex;
     margin: auto;
  }
- .text{
+
+
+
+
+div#madLib{
      display: flex;
      margin: 15px;
-     color:lightpink;
+     color: #008C76FF;
      font-weight: 800;
      font-family: 'Dancing Script';
-     font-size: 20px;
+     font-size: 50px;
  }
+
+
+
  .haiku{
      width: 50%;
      margin: auto;
  }
+
+
 
 @media (max-width:500px) {
     .image {

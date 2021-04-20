@@ -21,6 +21,6 @@ function createParagraph(){
 
 
 
-document.getElementById('answer').innerHTML = paragraph; 
+document.getElementById('madLib').innerHTML = paragraph; 
 
 }
